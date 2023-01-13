@@ -1,0 +1,42 @@
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid lightblue;
+  margin: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 100px;
+  height: 200px;
+}
+
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.availability {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.card-body {
+  align-content: left;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.bold {
+  font-weight: bold;
+}
